@@ -28,13 +28,20 @@
 
     - `git switch branchname`: Detta kommando låter användaren växla mellan branches.
 
-- `git fetch`: Hämtar commits, filer och refs från ett utomstående repository in till ens lokala repository.
+- `git fetch`: Hämtar data från ett utomstående repository in till ens lokala repository.
 
-    - `git pull`: Inte bara gör pull-kommandot samma sak som fetch gör, utan pull kopierar även ändringar från utomstående repositories in i det lokala.
+    - `git pull`: Inte bara gör pull-kommandot samma sak som fetch gör, utan pull kopierar även ändringar från ett utomstående repository in i det lokala.
 
     - `git push`: Gör motsatsen till de ovanstående då push-kommandot används till att ladda upp innehållet i ens lokala repository till ett utomstående.
 
 - `git merge`: Som kommandots namn föeslår, sammanfogar man en branch till huvudbranchen.
 
 ## Kommandon jag har lärt mig på egen hand/andra källor
+
 - `git config`: Låter dig konfiguera saker som namn, mejladresser, osv. in till Git. Medan jag installerade Git/VSCode helgen innan vår första föreläsning så lärde jag mig detta kommando via en tutorial på YouTube. (https://www.youtube.com/watch?v=B4qsvQ5IqWk&pp=ygUQZ2l0IGhvbWVicmV3IG1hYw%3D%3D)
+
+    - ...(` --global`) `user.name "..."`: Användaren kan med hjälp av detta kommando skapa ett användarnamn för sig själv för att associera till Git.
+    
+    - ...(` --global`) `user.email "..."`: Samma funktion, fast för ens e-postadress.
+
+    - ... `get ...`: Att skriva get framför antingen av de två ovanstående uppgifterna gör att terminalen hämtar ditt användarnamn/e-postadress.
