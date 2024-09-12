@@ -10,7 +10,7 @@
 - `mkdir`: Kort för **make directory**, med detta kommando skapar du en ny directory, vare sig det är en mapp, fil, osv.
 - `mv`: Detta kommando är en förkortning för ordet **move** och kommandot flyttar en fil från a till b. Mitt minne är lite suddigt vad gäller om vi gick igenom detta under en av föreläsningarna eller inte.
 
-- `clear`: Detta kommando rensar det som har skrivits i terminalen och loopar tillbaka till början.
+- `clear`: Detta kommando rensar det som har skrivits i terminalen.
 
 ## Git-kommandon som jag har lärt mig under undervisningarna.
 
@@ -44,4 +44,4 @@
     
     - ...` --global user.email "..."`: Samma funktion, fast för ens e-postadress.
 
-    - ... `get ...`: Att skriva get framför antingen user.name eller user.email gör att terminalen hämtar användarens användarnamn respektive hens e-postadress.
+    - ... ` --get ...`: Att skriva get framför antingen user.name eller user.email gör att terminalen hämtar användarens användarnamn respektive hens e-postadress.
