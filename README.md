@@ -40,8 +40,8 @@
 
 - `git config`: Låter dig konfiguera saker som namn, mejladresser, osv. in till Git. Medan jag installerade Git/VSCode helgen innan vår första föreläsning så lärde jag mig detta kommando via en tutorial på YouTube. (https://www.youtube.com/watch?v=B4qsvQ5IqWk&pp=ygUQZ2l0IGhvbWVicmV3IG1hYw%3D%3D)
 
-    - ...(` --global`) `user.name "..."`: Användaren kan med hjälp av detta kommando skapa ett användarnamn för sig själv för att associera till Git.
+    - ...` --global user.name "..."`: Användaren kan med hjälp av detta kommando skapa ett användarnamn för sig själv för att associera till Git.
     
-    - ...(` --global`) `user.email "..."`: Samma funktion, fast för ens e-postadress.
+    - ...` --global user.email "..."`: Samma funktion, fast för ens e-postadress.
 
-    - ... `get ...`: Att skriva get framför antingen av de två ovanstående uppgifterna gör att terminalen hämtar ditt användarnamn/e-postadress.
+    - ... `get ...`: Att skriva get framför antingen user.name eller user.email gör att terminalen hämtar användarens användarnamn respektive hens e-postadress.
