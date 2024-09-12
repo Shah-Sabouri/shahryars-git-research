@@ -18,17 +18,23 @@
 
 - `git clone`: Detta kommando gör att användaren kan "klona" en github repository in i VSCode via terminalen så att man kan jobba på den där.
 
-- `git commit`: Skapar ny commit, en "milstolpe" på sätt och vis, för repositoryn.
+- `git commit`: Skapar ny commit, alltså en ny version, för repositoryn.
 
 - `git status`: Som namnet föreslårommandot används kommandot för att inspektera statusen av repositoryn, exempelvis ifall den har commitats/behöver commitas eller inte.
 
-- `git branch`: Kommandot i sig själv visar användaren de branches de har, dylikt pwd som gör sammma med datorns innehåll.
+- `git branch`: Kommandot i sig själv visar användaren de branches de har, dylikt pwd som gör sammma med datorns innehåll. Kategoriserar arbetet på sätt och vis.
 
-    - `git branch branchname`: När man lägger till branchname bredvid det existerande kommandot så skapar man en ny branch.
+    - `git branch branchname`: När man lägger till branchname bredvid det existerande kommandot så skapar man en ny branch. Bra ifall man är osäker på ifall man vill experimentera med en kod utan att löpa risken att förstöra ens framsteg. 
 
     - `git switch branchname`: Detta kommando låter användaren växla mellan branches.
 
-- `git merge`: Sammanfogar en branch till huvudbranchen.
+- `git fetch`: Hämtar commits, filer och refs från ett utomstående repository in till ens lokala repository.
+
+    - `git pull`: Inte bara gör pull-kommandot samma sak som fetch gör, utan pull kopierar även ändringar från utomstående repositories in i det lokala.
+
+    - `git push`: Gör motsatsen till de ovanstående då push-kommandot används till att ladda upp innehållet i ens lokala repository till ett utomstående.
+
+- `git merge`: Som kommandots namn föeslår, sammanfogar man en branch till huvudbranchen.
 
 ## Kommandon jag har lärt mig på egen hand/andra källor
 - `git config`: Låter dig konfiguera saker som namn, mejladresser, osv. in till Git. Medan jag installerade Git/VSCode helgen innan vår första föreläsning så lärde jag mig detta kommando via en tutorial på YouTube. (https://www.youtube.com/watch?v=B4qsvQ5IqWk&pp=ygUQZ2l0IGhvbWVicmV3IG1hYw%3D%3D)
